@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Space Grotesk", ui-sans-serif, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* Aditya Birla Group brand palette — deep red through to gold, echoing the sunburst mark */
+  --color-primary-50: #fdecea;
+  --color-primary-100: #f8cfc9;
+  --color-primary-400: #d13c31;
+  --color-primary-500: #a3231e;
+  --color-primary-600: #841c18;
+  --color-primary-700: #5c1512;
+
+  --color-secondary-500: #221010;
+  --color-secondary-600: #170a0a;
+  --color-secondary-400: #331917;
+
+  --color-accent-400: #ffcf5c;
+  --color-accent-500: #f7941e;
+  --color-accent-600: #d97a0a;
+
+  --color-surface: #fdf9f6;
+  --color-warning-500: #f59e0b;
+  --color-danger-500: #e11d48;
+  --color-success-500: #1e8f5c;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  -webkit-font-smoothing: antialiased;
+}
+
+html.dark body {
+  background-color: #0b1220;
+}
+
+/* thin scrollbars for the plant-console feel */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+html.dark ::-webkit-scrollbar-thumb { background: #334155; }
+
+.font-display { font-family: var(--font-display); }
+.font-mono-data { font-family: var(--font-mono); }
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+.status-pulse { animation: pulse-dot 2s ease-in-out infinite; }
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(2deg); }
+}
+.float-slow { animation: float-slow 7s ease-in-out infinite; }
+
+/* Aditya Birla sunburst — slow ambient rotation used behind hero/login panels */
+@keyframes sunburst-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.sunburst-spin { animation: sunburst-spin 60s linear infinite; }
+
+/* Gentle shimmer sweep across brand gradients (buttons, cards, logo halo) */
+@keyframes shimmer-sweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer-sweep {
+  background-image: linear-gradient(110deg, transparent 30%, rgba(255,255,255,0.35) 50%, transparent 70%);
+  background-size: 200% 100%;
+  animation: shimmer-sweep 3.2s ease-in-out infinite;
+}
+
+@keyframes fade-in-up {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.fade-in-up { animation: fade-in-up 0.5s ease-out both; }
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(163, 35, 30, 0.35); }
+  50% { box-shadow: 0 0 0 8px rgba(163, 35, 30, 0); }
+}
+.glow-pulse { animation: glow-pulse 2.4s ease-in-out infinite; }
