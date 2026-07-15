@@ -1,157 +1,78 @@
-# 🏭 SmartPlant360
+# SmartPlant360
 
-::: {align="center"}
-# 🚀 AI-Powered Smart Manufacturing & Digital Twin Platform
+# 🚀 Smart Manufacturing Platform for Industry 4.0
 
-![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite)
-![Tailwind
-CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript)
+**Live Demo:** https://smart-plant360-pro.vercel.app
 
-### Smart Manufacturing • Digital Twin • AI Analytics • Sustainability
-
-*A modern Industry 4.0 platform inspired by Aditya Birla Group for
-intelligent plant monitoring and operations.*
-:::
+**Repository:** https://github.com/Code-by-guptaji/smartplant360
 
 ------------------------------------------------------------------------
 
-# 📖 Overview
+## Overview
 
-SmartPlant360 is a next-generation Industry 4.0 dashboard that
-centralizes production monitoring, digital twin visualization,
-sustainability metrics, machine health, notifications, and executive
-analytics into a unified, responsive web application.
+SmartPlant360 is a modern React + Vite application inspired by Industry
+4.0 concepts. It provides production monitoring, digital twin
+visualization, analytics, sustainability insights, notifications, and an
+enterprise-style dashboard.
 
-------------------------------------------------------------------------
+## Features
 
-# ✨ Features
+-   Executive Dashboard
+-   Production Monitoring
+-   Digital Twin
+-   Sustainability Dashboard
+-   Notifications
+-   Responsive UI
+-   Dark / Light Theme
+-   Interactive Charts
 
--   📊 Executive Dashboard
--   🏭 Production Monitoring
--   🤖 Digital Twin Visualization
--   ⚙️ Machine Health & Performance
--   📈 Interactive Analytics
--   🌱 Sustainability Dashboard
--   🔔 Smart Notifications
--   👥 User & Role Management
--   🌙 Dark / Light Theme
--   📱 Fully Responsive Design
+## Tech Stack
 
-------------------------------------------------------------------------
+-   React 19
+-   Vite
+-   Tailwind CSS
+-   JavaScript
+-   Recharts
+-   Lucide React
 
-# 🛠 Tech Stack
-
-  Category   Technologies
-  ---------- ------------------
-  Frontend   React 19, Vite
-  Styling    Tailwind CSS
-  Charts     Recharts
-  Icons      Lucide React
-  Language   JavaScript (ES6)
-
-------------------------------------------------------------------------
-
-# 📂 Project Structure
-
-``` text
-SmartPlant360/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── contexts/
-│   ├── layouts/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
-------------------------------------------------------------------------
-
-# 🚀 Installation
+## Installation
 
 ``` bash
-git clone https://github.com/yourusername/smartplant360.git
+git clone https://github.com/Code-by-guptaji/smartplant360.git
 cd smartplant360
 npm install
 npm run dev
 ```
 
-Visit:
+## Project Structure
 
-    http://localhost:5173
+``` text
+src/
+components/
+pages/
+layouts/
+contexts/
+services/
+assets/
+```
 
-------------------------------------------------------------------------
+## Roadmap
 
-# 📊 Main Modules
+-   Node.js backend
+-   MongoDB
+-   JWT
+-   AI Assistant
+-   IoT Integration
+-   Predictive Maintenance
 
--   Dashboard
--   Production
--   Digital Twin
--   Sustainability
--   Notifications
--   Settings
--   Authentication
+## Developer
 
-------------------------------------------------------------------------
+Vedant Gupta
 
-# 🎨 UI Highlights
+GitHub: https://github.com/Code-by-guptaji
 
--   Enterprise-grade dashboard
--   Glassmorphism cards
--   Smooth animations
--   Responsive layout
--   Interactive charts
--   Professional color palette
--   Aditya Birla inspired design
+Repository: https://github.com/Code-by-guptaji/smartplant360
 
-------------------------------------------------------------------------
+Live Demo: https://smart-plant360-pro.vercel.app
 
-# 🔮 Future Enhancements
-
--   AI Predictive Maintenance
--   IoT Sensor Integration
--   SAP / ERP Connectivity
--   QR & Barcode Tracking
--   Cloud Deployment
--   Mobile Application
--   Real-time APIs
--   Multi-Plant Support
-
-------------------------------------------------------------------------
-
-# 🤝 Contributing
-
-1.  Fork the repository
-2.  Create a feature branch
-3.  Commit your changes
-4.  Push to GitHub
-5.  Open a Pull Request
-
-------------------------------------------------------------------------
-
-# 👨‍💻 Developer
-
-**Vedant Gupta**
-
-B.Tech Computer Science Engineering
-
-Interested in: - Industry 4.0 - AI Dashboards - React Development - Data
-Analytics
-
-------------------------------------------------------------------------
-
-# ⭐ Support
-
-If you like this project, please give it a ⭐ on GitHub.
-
-------------------------------------------------------------------------
-
-::: {align="center"}
-## Made with ❤️ by Vedant Gupta
-:::
+Made with ❤️ by Vedant Gupta
